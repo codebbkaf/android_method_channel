@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.swim.flutter.app.swimple_flutter_module</groupId>
+  <artifactId>flutter_release</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_release</artifactId>
+      <version>1.0.0-e76c956498841e1ab458577d3892003e553e4f3c</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>armeabi_v7a_release</artifactId>
+      <version>1.0.0-e76c956498841e1ab458577d3892003e553e4f3c</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>arm64_v8a_release</artifactId>
+      <version>1.0.0-e76c956498841e1ab458577d3892003e553e4f3c</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>x86_64_release</artifactId>
+      <version>1.0.0-e76c956498841e1ab458577d3892003e553e4f3c</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.flutter_plugin_android_lifecycle</groupId>
+      <artifactId>flutter_plugin_android_lifecycle_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tekartik.sqflite</groupId>
+      <artifactId>sqflite_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.baseflow.geocoding</groupId>
+      <artifactId>geocoding_android_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mr.flutter.plugin.filepicker</groupId>
+      <artifactId>file_picker_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_android_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.googlemaps</groupId>
+      <artifactId>google_maps_flutter_android_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.imagepicker</groupId>
+      <artifactId>image_picker_android_release</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

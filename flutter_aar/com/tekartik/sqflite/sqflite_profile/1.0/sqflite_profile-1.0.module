@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-e76c956498841e1ab458577d3892003e553e4f3c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_profile-1.0.aar",
+          "url": "sqflite_profile-1.0.aar",
+          "size": 45708,
+          "sha512": "2ea8cd4174639220ee3ed223321ea045c177c04ec58d3a7dc7fa83b48832f10056f177a3fb47928bb82be91f53704b0308bf2f895b35f3c6dcc021e2da1c5563",
+          "sha256": "5bc4d1f43eceecfa559d9e0a1a879b43856bd32b6753b494187c022ee1e0c76b",
+          "sha1": "b417b1192be30cf94c033f10e668986cbe89ac3a",
+          "md5": "9133b67bc0ea60ed0a64b5bb42e78340"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-e76c956498841e1ab458577d3892003e553e4f3c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_profile-1.0.aar",
+          "url": "sqflite_profile-1.0.aar",
+          "size": 45708,
+          "sha512": "2ea8cd4174639220ee3ed223321ea045c177c04ec58d3a7dc7fa83b48832f10056f177a3fb47928bb82be91f53704b0308bf2f895b35f3c6dcc021e2da1c5563",
+          "sha256": "5bc4d1f43eceecfa559d9e0a1a879b43856bd32b6753b494187c022ee1e0c76b",
+          "sha1": "b417b1192be30cf94c033f10e668986cbe89ac3a",
+          "md5": "9133b67bc0ea60ed0a64b5bb42e78340"
+        }
+      ]
+    }
+  ]
+}

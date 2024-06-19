@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.geocoding",
+    "module": "geocoding_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-e76c956498841e1ab458577d3892003e553e4f3c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geocoding_android_debug-1.0.aar",
+          "url": "geocoding_android_debug-1.0.aar",
+          "size": 16665,
+          "sha512": "d034b364eeb1be781e011859fc2c1a1aa1c7dc2fa52c84717edad7f724fd39a7929f680997b9dbdea32fbd224186880d3c2c480923b733b5bc6249d85b641187",
+          "sha256": "1ba68050cfbd3be869d8d18c3dd32c4a2599c72f6e862907cf985d36d019374d",
+          "sha1": "29ffd68f0f7058ee8f882fc48e86c92a1103a4cf",
+          "md5": "862894f5685b919166b86709373a6664"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-e76c956498841e1ab458577d3892003e553e4f3c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geocoding_android_debug-1.0.aar",
+          "url": "geocoding_android_debug-1.0.aar",
+          "size": 16665,
+          "sha512": "d034b364eeb1be781e011859fc2c1a1aa1c7dc2fa52c84717edad7f724fd39a7929f680997b9dbdea32fbd224186880d3c2c480923b733b5bc6249d85b641187",
+          "sha256": "1ba68050cfbd3be869d8d18c3dd32c4a2599c72f6e862907cf985d36d019374d",
+          "sha1": "29ffd68f0f7058ee8f882fc48e86c92a1103a4cf",
+          "md5": "862894f5685b919166b86709373a6664"
+        }
+      ]
+    }
+  ]
+}

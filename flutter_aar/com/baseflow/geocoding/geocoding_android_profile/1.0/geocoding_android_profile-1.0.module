@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.geocoding",
+    "module": "geocoding_android_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-e76c956498841e1ab458577d3892003e553e4f3c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geocoding_android_profile-1.0.aar",
+          "url": "geocoding_android_profile-1.0.aar",
+          "size": 16129,
+          "sha512": "ebc15ee117c9a89bb980ea80172a4bfacc16e6f9c3837bdc0ff76dc3eb7d8e9c7c76353610fa4db95ad34acb5a15d1c3bb418968992d6a1816d3a3bd377a4e6e",
+          "sha256": "8b434b1f9dd487500cb0483db519c509fe6b0055c2b8c283b6f0842261ac5069",
+          "sha1": "bf073370ba5742a5ec920e01f10dadefba8fad38",
+          "md5": "fc80480df9d706e8a807186c7a9d457b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-e76c956498841e1ab458577d3892003e553e4f3c"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geocoding_android_profile-1.0.aar",
+          "url": "geocoding_android_profile-1.0.aar",
+          "size": 16129,
+          "sha512": "ebc15ee117c9a89bb980ea80172a4bfacc16e6f9c3837bdc0ff76dc3eb7d8e9c7c76353610fa4db95ad34acb5a15d1c3bb418968992d6a1816d3a3bd377a4e6e",
+          "sha256": "8b434b1f9dd487500cb0483db519c509fe6b0055c2b8c283b6f0842261ac5069",
+          "sha1": "bf073370ba5742a5ec920e01f10dadefba8fad38",
+          "md5": "fc80480df9d706e8a807186c7a9d457b"
+        }
+      ]
+    }
+  ]
+}
